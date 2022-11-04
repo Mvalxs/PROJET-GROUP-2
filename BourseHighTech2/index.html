@@ -62,19 +62,47 @@
             <div class="row textCarousel">
                 <div class="col-12 col-lg-6 order-lg-2 text-center">
                     <h1 class="my-5">La bourse aux produits high tech</h1>
-                    <h3 class="mb-5" id="Information">Amiens organise, en partenariat avec le campus amienois La Manu,
-                        une
-                        bourse
-                        aux produits High Tech !
+                    <h3 class="mb-4" id="Information">Amiens organise, en partenariat avec le campus amienois La Manu,
+                        une bourse aux produits High Tech !
+                        <h3>le 29/10/22 a partir de 17h</h3>
                     </h3>
-                    <p>La bourse aux produits high tech vous permet d’acheter de nouveaux equipements d’occasions et
-                        surtout a moindre cout.</p>
-                    <p> Les eleves de la Manu testeront les articles mis en vente ainsi vous effectuerez des achats de
-                        qualite en toute securite.</p>
-                    <p> La bourse se deroulera sur le parking du campus de la Manu d’Amiens. Vous trouverez l’adresse et
-                        le plan d’acces ci-dessous.
-                    </p>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        + d'infos
+                    </button>
+
+                    <!-- MODAL -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Plus d'infos</h1>
+                                    <button type="button" class="btn-close btn" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>La bourse aux produits high tech vous permet d’acheter de nouveaux equipements
+                                        d’occasions et ssurtout a moindre cout.</p>
+                                    <p> Les eleves de la Manu testeront les articles mis en vente ainsi vous effectuerez
+                                        des
+                                        achats de
+                                        qualite en toute securite.</p>
+                                    <p> La bourse se deroulera sur le parking du campus de la Manu d’Amiens. Vous
+                                        trouverez
+                                        l’adresse et le plan d’acces ci-dessous.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn" data-bs-dismiss="modal">fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+                <!-- CAROUSEL -->
                 <div class="col-12 col-lg-6 order-lg-1 carousel mt-5">
                     <div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -158,9 +186,10 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="container my-5">
-            <div class="row">
-                <img class="my-4 rounded-4" src="/public/assets/img/Coronavirus.jpg" alt="Prevention Coronavirus">
+        <div class="container mt-5">
+            <div class="row flex d-flex justify-content-lg-center">
+                <img class="my-4 rounded-4 imgFooter" src="/public/assets/img/Coronavirus.jpg"
+                    alt="Prevention Coronavirus">
             </div>
             <div class="col-12 text-center">
                 <div class="row my-2"><a class="text-decoration-none text-white"
@@ -172,19 +201,26 @@
                         target="_blank">mentions legales</a>
                 </div>
 
-                <!--  -->
-                <div class="col-12 logoAmiens">
-                    <a href=""><img src="/public/assets/img/amiens.png" alt="logo d'Amiens"></a>
+                <!-- LOGOS -->
+                <div class="row logoFooter">
+                    <div class="col-3 my-3 logoAmiens ">
+                        <a href="https://www.amiens.fr/" target="_blank"><img src="/public/assets/img/amiens.png"
+                                alt="logo d'Amiens"></a>
+                    </div>
+                    <div class="col-3 my-3 logoLaManu">
+                        <a href="https://lamanu.fr/" target="_blank"><img src="/public/assets/img/lamanupng.png"
+                                alt="logo La Manu"></a>
+                    </div>
+                    <div class="col-3 my-3 logoTwitter">
+                        <a href="https://twitter.com/AmiensMetropole?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                            target="_blank"><img src="/public/assets/img/twitter.png" alt="logo Twitter"></a>
+                    </div>
+                    <div class="col-3 my-3 logoFacebook">
+                        <a href="https://www.facebook.com/LaManuFormation/" target="_blank"><img
+                                src="/public/assets/img/facebook.png" alt="logo Facebook"></a>
+                    </div>
                 </div>
-                <div class="col-12 logoLaManu">
-                    <a href=""><img src="" alt="logo La Manu"></a>
-                </div>
-                <div class="col-12 logoTwitter">
-                    <a href=""><img src="/public/assets/img/twitter.png" alt="logo Twitter"></a>
-                </div>
-                <div class="col-12 logoFacebook">
-                    <a href=""><img src="/public/assets/img/facebook.png" alt="logo Facebook"></a>
-                </div>
+
             </div>
         </div>
     </footer>
