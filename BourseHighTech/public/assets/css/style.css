@@ -1,0 +1,264 @@
+@font-face {
+  font-family: "a Atmospheric";
+  src: url("../Atmospheric-rg4aL.ttf");
+}
+html {
+  width: 100vw;
+  height: 100vh;
+  font-family: "a Atmospheric", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+header .headers {
+  background-size: 1500px;
+  background: url(../img/header.png);
+  width: 100%;
+  height: 150px;
+  display: flex;
+}
+header #title {
+  float: left;
+  width: 350px;
+  margin-top: 25px;
+  margin-left: 50px;
+  color: #E4E4E4;
+  font-size: 86px;
+  text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, rgba(0, 0, 0, 0.632) 5px 5px 5px;
+}
+header .nav {
+  width: 250px;
+  height: 150px;
+  margin-left: 1150px;
+}
+header a {
+  float: none;
+  margin-top: 50px;
+  margin-left: 146px;
+  margin-right: 0px;
+  text-decoration: none;
+  color: #E4E4E4;
+}
+header #Acceuil {
+  font-size: 20px;
+  margin-top: 70px;
+  margin-left: 0px;
+}
+header #Information {
+  font-size: 20px;
+  margin-top: 70px;
+  margin-left: -7px;
+}
+header #Reserver {
+  font-size: 20px;
+  margin-top: 70px;
+  margin-left: 0px;
+}
+header #Connexion {
+  font-size: 20px;
+  margin-top: 70px;
+  margin-left: 0px;
+}
+header #imgAcceuil {
+  float: inline-start;
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 50px;
+  height: 50px;
+}
+header #imgInformation {
+  float: inline-start;
+  margin-top: 50px;
+  margin-left: 23px;
+  width: 50px;
+  height: 50px;
+}
+header #imgReserver {
+  float: inline-start;
+  margin-top: 50px;
+  margin-left: 35px;
+  width: 50px;
+  height: 50px;
+}
+header #imgConnexion {
+  float: inline-start;
+  margin-top: 50px;
+  margin-left: 33px;
+  width: 50px;
+  height: 50px;
+}
+header #logosite {
+  height: 120px;
+  width: 350px;
+  margin-left: 50px;
+}
+
+main .total {
+  display: flex;
+  flex-direction: column;
+}
+main .total .mains {
+  height: 50%;
+  display: flex;
+}
+main .total .mains .mosaique {
+  width: 40%;
+  padding-left: 70px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-right: 25px;
+}
+main .total .mains .mosaique img {
+  margin-left: 20px;
+  border-radius: 23px;
+  width: 234px;
+  height: 185px;
+  margin-top: 20px;
+}
+main .total .mains .presentation {
+  width: 60%;
+  text-align: justify;
+  padding-top: 40px;
+  padding-right: 50px;
+  line-height: 26px;
+  font-size: 21px;
+}
+main .total .mains .presentation .center {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+main .total .mains .presentation .center img {
+  width: 180px;
+  height: 60px;
+}
+main .total .formulaire {
+  display: flex;
+  align-items: center;
+  background-color: #E4E4E4;
+  border-top: ridge 2px #000000;
+  border-bottom: ridge 2px #000000;
+}
+main .total .formulaire form {
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main .total .formulaire form legend {
+  font-size: 24px;
+  color: #3e638d;
+  text-shadow: 2px 0 0 black;
+}
+main .total .formulaire form label {
+  display: inline-block;
+  width: 250px;
+  text-align: right;
+}
+main .total .formulaire form #envoyer {
+  justify-items: center;
+  background: #3e638d;
+  border-radius: 12px;
+  border-color: white;
+  color: white;
+  height: 30px;
+  width: 150px;
+  font-family: "a Atmospheric", sans-serif;
+}
+main .total .plandacces {
+  font-size: 24px;
+  color: #3e638d;
+  text-shadow: 2px 0 0 #000000;
+  text-align: center;
+  padding-top: 25px;
+}
+main .total .maps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+main .total .maps .map {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+main .total .maps .blocplan {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+main .total .maps .blocplan .adresse {
+  text-align: center;
+}
+main .total .maps .blocplan .planbus {
+  border: #000000 1px;
+}
+main .total .maps .blocplan .planbus img {
+  border-radius: 23px;
+  border: ridge 1px black;
+}
+
+/*   Css pour le footer */
+footer {
+  background-color: #3e638d;
+  height: 150px;
+}
+footer .contenair {
+  display: flex;
+  align-items: center;
+}
+footer .coordinates {
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 250px;
+  list-style: none;
+  color: #e4e4e4;
+  float: left;
+}
+footer .infoFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+footer .officialDoc {
+  justify-content: space-between;
+  font-size: 12px;
+}
+footer .socialLink {
+  float: right;
+  margin-top: 20px;
+  padding: 0px;
+  margin-left: 275px;
+}
+footer .politique {
+  margin-left: 268px;
+}
+footer a {
+  text-decoration: none;
+  color: #E4E4E4;
+  margin-left: 20px;
+}
+footer img {
+  border-radius: 12px;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+footer #corona {
+  margin-top: 30px;
+  width: 677px;
+  height: 85px;
+  margin-left: 250px;
+}
+footer #amiens {
+  width: 65px;
+  height: 50px;
+  margin-top: 5px;
+}/*# sourceMappingURL=style.css.map */
