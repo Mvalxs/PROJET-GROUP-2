@@ -16,7 +16,7 @@
 
     <!-- Ouverture du header -->
     <header>
-        
+
         <div class="headers">
             <img id="logosite" src="./public/assets/img/logo.png" alt="">
             <img id="imgAcceuil" src="./public/assets/img/home.png" alt="">
@@ -26,7 +26,8 @@
             <img id="imgReserver" src="./public/assets/img/reservation.png" alt="">
             <a id="Reserver" href="#reserver"> Reserver</a>
             <img id="imgConnexion" src="./public/assets/img/on.png" alt="">
-            <a id="Connexion" href="http://espace-apprenant.manusien-ecolelamanu.fr/login/"> Connexion</a>
+            <a id="Connexion" href="http://espace-apprenant.manusien-ecolelamanu.fr/login/" target="_blank">
+                Connexion</a>
         </div>
     </header>
     <!-- Ouverture du main -->
@@ -35,69 +36,77 @@
             <div class="mains">
                 <!-- Ouverture de la section "mosaique" -->
                 <section class="mosaique">
-                    <img class="camera"  src="./public/assets/img/cameranumerique.jpg" alt="">
+                    <img class="camera" src="./public/assets/img/cameranumerique.jpg" alt="">
                     <img src="./public/assets/img/montreconnecte.jpg" alt="">
                     <img class="camera" src="./public/assets/img/pcportable.jpg" alt="">
                     <img src="./public/assets/img/pesepersonne.jpg" alt="">
-                    <img class="camera"  src="./public/assets/img/tablette.jpg" alt="">
+                    <img class="camera" src="./public/assets/img/tablette.jpg" alt="">
                     <img src="./public/assets/img/portabe.jpg" alt="">
                 </section>
                 <!-- Ouverture de la "Presentation" -->
                 <section id="Information" class="presentation">
                     <p class="center">
                         <br>
-                        <img src="./public/assets/img/amiensmain.png" alt=""> organise, en partenariat avec le campus 
-                        Amienois LA MANU, une  bourse aux produits high tech !</p>
-                        <br>
+                        <img src="./public/assets/img/amiensmain.png" alt=""> organise, en partenariat avec le campus
+                        Amienois LA MANU, une bourse aux produits high tech !
+                    </p>
+                    <br>
                     <p>Besoin de renouveler vos equipements multimedias ? </p>
-                    <p> La Bourse aux Produits High Tech vous permet d'acheter de nouveaux equipements d'occasions et surtout a moindre cout.</p>
-                    <p>Les eleves de La Manu testeront les articles mis en vente, ainsi vous effectuerez des achats de qualite en toute securite.</p>
-                    <p>La bourse se deroulera sur le parking du campus de La Manu d'Amiens, au 70 rue des Jacobins. Vous trouverez, ci-dessous, un plan vous permettant de vous repErer facilement dans les environs.</p>   
+                    <p> La Bourse aux Produits High Tech vous permet d'acheter de nouveaux equipements d'occasions et
+                        surtout a moindre cout.</p>
+                    <p>Les eleves de La Manu testeront les articles mis en vente, ainsi vous effectuerez des achats de
+                        qualite en toute securite.</p>
+                    <p>La bourse se deroulera sur le parking du campus de La Manu d'Amiens, au 70 rue des Jacobins. Vous
+                        trouverez, ci-dessous, un plan vous permettant de vous repErer facilement dans les environs.</p>
                 </section>
             </div>
-                <section id="reserver" class="formulaire" >
-                    <form target="_blank" >
-                        <legend>Formulaire De reservation</legend>
-                            <br>
-                            <label for="name" id="name">Nom</label>
-                            <input type="text" name="name" id="name">
-                            <br>
-                            <br>
-                            <label for="firstname" id="firstname">Prenom</label>
-                            <input type="text" name="firstname" id="firstname">
-                            <br>
-                            <br>
-                            <label for="email" id="email">Email</label>
-                            <input type="email" name="email" id="email">
-                            <br>
-                            <br>
-                            <label for="Emplacement" id="Emplecement">Nbr d'emplacements</label>
-                            <input type="number" name="Emplacement" id="Emplacement" >
-                            <br>
-                            <br>
-                            <label for="typesell" id="typesells">Produits a vendre</label>
-                            <textarea name="typesell" id="typesell"></textarea>
-                            <br>
-                            <br>
-                            <center><input id="envoyer" type="submit" value="Envoyer" formaction="./public/assets/img/formaction.jpg"></center>
-                    </form>
-                </section>
-                <p class="plandacces">Plan d'acces</p> 
-                <section class="maps">
-                    <div class="map">
-                        <iframe id="loca" src="https://www.google.com/maps/embed?pb=!4v1666621938945!6m8!1m7!1s1XAWBAEzjzEeeHUDksKfdA!2m2!1d49.89054814258736!2d2.301859944763697!3f272.7906075934964!4f-1.6687513787831136!5f0.7820865974627469" width="600" height="470" style="border-radius: 23px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <section id="reserver" class="formulaire">
+                <form target="_blank">
+                    <legend>Formulaire De reservation</legend>
+                    <br>
+                    <label for="name" id="name">Nom</label>
+                    <input type="text" name="name" id="name">
+                    <br>
+                    <br>
+                    <label for="firstname" id="firstname">Prenom</label>
+                    <input type="text" name="firstname" id="firstname">
+                    <br>
+                    <br>
+                    <label for="email" id="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <br>
+                    <br>
+                    <label for="Emplacement" id="Emplecement">Nbr d'emplacements</label>
+                    <input type="number" name="Emplacement" id="Emplacement">
+                    <br>
+                    <br>
+                    <label for="typesell" id="typesells">Produits a vendre</label>
+                    <textarea name="typesell" id="typesell"></textarea>
+                    <br>
+                    <br>
+                    <center><input id="envoyer" type="submit" value="Envoyer"
+                            formaction="./public/assets/img/formaction.jpg"></center>
+                </form>
+            </section>
+            <p class="plandacces">Plan d'acces</p>
+            <section class="maps">
+                <div class="map">
+                    <iframe id="loca"
+                        src="https://www.google.com/maps/embed?pb=!4v1666621938945!6m8!1m7!1s1XAWBAEzjzEeeHUDksKfdA!2m2!1d49.89054814258736!2d2.301859944763697!3f272.7906075934964!4f-1.6687513787831136!5f0.7820865974627469"
+                        width="600" height="470" style="border-radius: 23px;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="blocplan">
+                    <div class="adresse">
+                        <p class="adress">Adresse de l'evenement :</p>
+                        <p class="adress">70 rue des Jacobins
+                            80000 Amiens</p>
                     </div>
-                    <div class="blocplan">
-                        <div class="adresse">
-                            <p class="adress">Adresse de l'evenement :</p>
-                            <p class="adress">70 rue des Jacobins 
-                                80000 Amiens</p>
-                        </div>
-                        <div class="planbus"><img src="./public/assets/img/planbus.png" alt="plan bus">
-                        </div>
-                    </div>    
-                </section>
-            </div>
+                    <div class="planbus"><img src="./public/assets/img/planbus.png" alt="plan bus">
+                    </div>
+                </div>
+            </section>
+        </div>
         </div>
     </main>
     <!-- Ouverture du footer -->
@@ -123,13 +132,14 @@
                     <a>@&nbsp;2022&nbsp;BourseHitech</a>
                 </div>
             </div>
-                <div class="socialLink">
-                    <a id="twitter" href="https://twitter.com/lamanuformation?lang=fr"><img 
-                            src="./public/assets/img/twitter.png"></a>
-                    <a id="facebook" href="https://www.facebook.com/LaManuFormation/"><img 
-                            src="./public/assets/img/facebook.png"></a>
-                </div>
+            <div class="socialLink">
+                <a id="twitter" href="https://twitter.com/lamanuformation?lang=fr"><img
+                        src="./public/assets/img/twitter.png"></a>
+                <a id="facebook" href="https://www.facebook.com/LaManuFormation/"><img
+                        src="./public/assets/img/facebook.png"></a>
+            </div>
         </div>
     </footer>
 </body>
+
 </html>
