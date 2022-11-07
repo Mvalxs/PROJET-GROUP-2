@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "a Atmospheric";
+    src: url("/public/assets/fonts/Atmospheric-rg4aL.ttf");
+}
+
+html,
+body {
+    font-family: "a Atmospheric", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* HEADER  */
+
+nav {
+    background-image: url(/public/assets/img/header.png);
+    background-size: cover;
+}
+
+.logoPrincipal {
+    height: 10vh;
+}
+
+.form h3 {
+    color: #3e638d;
+}
+
+.form {
+    background-color: #E4E4E4;
+}
+
+.btn {
+    color: white;
+    background-color: #3e638d;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.map h3 {
+    color: #3e638d;
+}
+
+footer {
+    background-color: #3E638D;
+}
+
+@media screen and (min-width: 900px) {
+    .flex {
+        display: flex;
+    }
+
+    .imgFooter {
+        width: 800px;
+        height: 80px;
+    }
+}
