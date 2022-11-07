@@ -1,0 +1,38 @@
+    <!-- FOOTER -->
+    <footer>
+        <div class="container mt-5 ">
+
+            <div class="row flex d-flex justify-content-lg-center text-center">
+                <div class="col-12">
+                    <img class="my-4 rounded-4 img-fluid" src="./public/assets/img/Coronavirus.jpg"
+                    alt="Prevention Coronavirus">
+                </div>
+                <div class="col-12 text-center my-2"><a class="text-decoration-none text-white"
+                        href="https://www.document-pdf.fr/2022/10/25/politique-de-confidentialite/preview/page/1/?"
+                        target="_blank">Politique de confidentialite</a>
+                </div>
+                <div class="col-12 text-center my-2"> <a class="text-decoration-none text-white my-2"
+                        href="https://www.document-pdf.fr/2022/10/25/mention-legales/preview/page/1/"
+                        target="_blank">mentions legales</a>
+                </div>
+            </div>
+
+                <!-- LOGOS -->
+
+            <div class="row text-center logoFooter">
+                <div class="col-12 my-3">
+                    <a href="https://www.amiens.fr/" target="_blank"><img src="./public/assets/img/amiens.png" alt="logo d'Amiens" class="img-fluid"></a>
+                    <a href="https://lamanu.fr/" target="_blank"><img src="./public/assets/img/lamanupng.png" alt="logo La Manu" class="img-fluid"></a>
+                    <a href="https://twitter.com/AmiensMetropole?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="./public/assets/img/twitter.png" alt="logo Twitter" class="img-fluid"></a>
+                    <a href="https://www.facebook.com/LaManuFormation/" target="_blank"><img src="./public/assets/img/facebook.png" alt="logo Facebook" class="img-fluid"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-white text-center">
+                    <p>Copyright @2022 hitech events</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
