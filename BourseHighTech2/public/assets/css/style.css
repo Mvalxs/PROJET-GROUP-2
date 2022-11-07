@@ -1,6 +1,6 @@
 @font-face {
     font-family: "a Atmospheric";
-    src: url("/public/assets/fonts/Atmospheric-rg4aL.ttf");
+    src: url("../fonts/Atmospheric-rg4aL.ttf");
 }
 
 html,
@@ -17,7 +17,7 @@ body {
 /* HEADER  */
 
 nav {
-    background-image: url(/public/assets/img/header.png);
+    background-image: url(/BourseHighTech2/public/assets/img/header.png);
     background-size: cover;
 }
 
