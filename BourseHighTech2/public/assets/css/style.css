@@ -25,6 +25,16 @@ nav {
     height: 10vh;
 }
 
+
+
+/*  Mosaique  */
+.mosaique img {
+    height: 180px;
+    width: auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+
 .form h3 {
     color: #3e638d;
 }
@@ -56,5 +66,9 @@ footer {
     .imgFooter {
         width: 800px;
         height: 80px;
+    }
+
+    iframe {
+        height: 400px;
     }
 }

@@ -8,7 +8,7 @@
     <!-- Lien pour bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./public/assets/css/style.css">
+    <link rel="stylesheet" href="/BourseHighTech2/public/assets/css/style.css">
     <title>Bourse Hightech2</title>
 </head>
 
@@ -57,8 +57,12 @@
     </header>
 
     <!-- MAIN -->
+
+
+
+    <!-- Carrousel Tablette Mobile -->
     <div class="main">
-        <div class="container ">
+        <div class="container my-5">
             <div class="row textCarousel">
                 <div class="col-12 col-lg-6 order-lg-2 text-center">
                     <h1 class="my-5">La bourse aux produits high tech</h1>
@@ -102,12 +106,22 @@
                     </div>
 
                 </div>
+                <!-- Mosaique Desktop -->
+                <div class="col-lg-6 order-lg-1  d-none d-lg-block mosaique my-4 text-center">
+                    <img class="camera" src="./public/assets/img/cameranumerique.jpg" alt="">
+                    <img src="./public/assets/img/montreconnecte.jpg" alt="">
+                    <img class="camera" src="./public/assets/img/pcportable.jpg" alt="">
+                    <img src="./public/assets/img/pesepersonne.jpg" alt="">
+                    <img class="camera" src="./public/assets/img/tablette.jpg" alt="">
+                    <img src="./public/assets/img/portabe.jpg" alt="">
+                </div>
                 <!-- CAROUSEL -->
-                <div class="col-12 col-lg-6 order-lg-1 carousel mt-5">
+                <div class="col-12 d-lg-none carousel mt-5">
                     <div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/BourseHighTech2/public/assets/img/cameranumerique.jpg" class="d-block w-100" alt="camera">
+                                <img src="/BourseHighTech2/public/assets/img/cameranumerique.jpg" class="d-block w-100"
+                                    alt="camera">
                             </div>.
                             <div class="carousel-item">
                                 <img src="./public/assets/img/montreconnecte.jpg" class="d-block w-100"
@@ -181,7 +195,6 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-
     </div>
 
     <!-- FOOTER -->
