@@ -37,6 +37,7 @@ nav {
 
 .form h3 {
     color: #3e638d;
+
 }
 
 .form {
@@ -48,6 +49,10 @@ nav {
     background-color: #3e638d;
     border-radius: 20px;
     font-size: 12px;
+}
+
+.btn:hover {
+    background-color: #3E638D;
 }
 
 .map h3 {
