@@ -17,8 +17,8 @@
     <header>
         <nav class="navbar  navbar-expand-lg navbar-dark ">
             <div class="container">
-                <a class="navbar-brand " href="#"><img class="logoPrincipal"
-                        src="/BourseHighTech2/public/assets/img/logo.png" alt="logo principal"></a>
+                <a class="navbar-brand " href="#"><img class="logoPrincipal" src="/public/assets/img/logo.png"
+                        alt="logo principal"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -28,26 +28,25 @@
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#">
-                                <img class="logoAccueil" src="/BourseHighTech2/public/assets/img/home.png"
-                                    alt="logo Accueil"> Accueil
+                                <img class="logoAccueil" src="/public/assets/img/home.png" alt="logo Accueil"> Accueil
                             </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#Information">
-                                <img class="logoInformation" src="/BourseHighTech2/public/assets/img/infos.png"
+                                <img class="logoInformation" src="/public/assets/img/infos.png"
                                     alt="logo Information">Information
                             </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#reserver">
-                                <img class="logoReserver" src="/BourseHighTech2/public/assets/img/reservation.png"
+                                <img class="logoReserver" src="/public/assets/img/reservation.png"
                                     alt="logo Reserver">Reserver
                             </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="http://espace-apprenant.manusien-ecolelamanu.fr/login/"
                                 target="_blank">
-                                <img class="logoConnexion" src="/BourseHighTech2/public/assets/img/on.png"
+                                <img class="logoConnexion" src="/public/assets/img/on.png"
                                     alt="logo Connexion">Connexion
                             </a>
                         </li>
@@ -62,46 +61,69 @@
         <div class="container ">
             <div class="row textCarousel">
                 <div class="col-12 col-lg-6 order-lg-2 text-center">
-                    <h1 class="my-5">La bourse aux produits hight tech</h1>
-                    <h3 class="mb-5" id="Information">Amiens organise, en partenariat avec le campus amienois La Manu,
-                        une
-                        bourse
-                        aux produits High Tech !
+                    <h1 class="my-5">La bourse aux produits high tech</h1>
+                    <h3 class="mb-4" id="Information">Amiens organise, en partenariat avec le campus amienois La Manu,
+                        une bourse aux produits High Tech !
+                        <h3>le 29/10/22 a partir de 17h</h3>
                     </h3>
-                    <p>La bourse aux produits high tech vous permet d’acheter de nouveaux equipements d’occasions et
-                        surtout a moindre cout.</p>
-                    <p> Les eleves de la Manu testeront les articles mis en vente ainsi vous effectuerez des achats de
-                        qualite en toute securite.</p>
-                    <p> La bourse se deroulera sur le parking du campus de la Manu d’Amiens. Vous trouverez l’adresse et
-                        le plan d’acces ci-dessous.
-                    </p>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        + d'infos
+                    </button>
+
+                    <!-- MODAL -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Plus d'infos</h1>
+                                    <button type="button" class="btn-close btn" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>La bourse aux produits high tech vous permet d’acheter de nouveaux equipements
+                                        d’occasions et ssurtout a moindre cout.</p>
+                                    <p> Les eleves de la Manu testeront les articles mis en vente ainsi vous effectuerez
+                                        des
+                                        achats de
+                                        qualite en toute securite.</p>
+                                    <p> La bourse se deroulera sur le parking du campus de la Manu d’Amiens. Vous
+                                        trouverez
+                                        l’adresse et le plan d’acces ci-dessous.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn" data-bs-dismiss="modal">fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+                <!-- CAROUSEL -->
                 <div class="col-12 col-lg-6 order-lg-1 carousel mt-5">
                     <div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/BourseHighTech2/public/assets/img/cameranumerique.jpg" class="d-block w-100"
-                                    alt="camera">
+                                <img src="/public/assets/img/cameranumerique.jpg" class="d-block w-100" alt="camera">
                             </div>
                             <div class="carousel-item">
-                                <img src="/BourseHighTech2/public/assets/img/montreconnecte.jpg" class="d-block w-100"
+                                <img src="/public/assets/img/montreconnecte.jpg" class="d-block w-100"
                                     alt="montre connectée">
                             </div>
                             <div class="carousel-item">
-                                <img src="/BourseHighTech2/public/assets/img/pcportable.jpg" class="d-block w-100"
-                                    alt="pc portable">
+                                <img src="/public/assets/img/pcportable.jpg" class="d-block w-100" alt="pc portable">
                             </div>
                             <div class="carousel-item active">
-                                <img src="/BourseHighTech2/public/assets/img/pesepersonne.jpg" class="d-block w-100"
-                                    alt="balance">
+                                <img src="/public/assets/img/pesepersonne.jpg" class="d-block w-100" alt="balance">
                             </div>
                             <div class="carousel-item">
-                                <img src="/BourseHighTech2/public/assets/img/tablette.jpg" class="d-block w-100"
-                                    alt="tablette">
+                                <img src="/public/assets/img/tablette.jpg" class="d-block w-100" alt="tablette">
                             </div>
                             <div class="carousel-item">
-                                <img src="/BourseHighTech2/public/assets/img/portabe.jpg" class="d-block w-100"
-                                    alt="portable">
+                                <img src="/public/assets/img/portabe.jpg" class="d-block w-100" alt="portable">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade"
@@ -164,9 +186,9 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="container my-5">
-            <div class="row">
-                <img class="my-4 rounded-4" src="/BourseHighTech2/public/assets/img/Coronavirus.jpg"
+        <div class="container mt-5">
+            <div class="row flex d-flex justify-content-lg-center">
+                <img class="my-4 rounded-4 imgFooter" src="/public/assets/img/Coronavirus.jpg"
                     alt="Prevention Coronavirus">
             </div>
             <div class="col-12 text-center">
@@ -178,18 +200,27 @@
                         href="https://www.document-pdf.fr/2022/10/25/mention-legales/preview/page/1/"
                         target="_blank">mentions legales</a>
                 </div>
-                <div class="col-12 logoAmiens">
-                    <a href=""><img src="/BourseHighTech2/public/assets/img/amiens.png" alt="logo d'Amiens"></a>
+
+                <!-- LOGOS -->
+                <div class="row logoFooter">
+                    <div class="col-3 my-3 logoAmiens ">
+                        <a href="https://www.amiens.fr/" target="_blank"><img src="/public/assets/img/amiens.png"
+                                alt="logo d'Amiens"></a>
+                    </div>
+                    <div class="col-3 my-3 logoLaManu">
+                        <a href="https://lamanu.fr/" target="_blank"><img src="/public/assets/img/lamanupng.png"
+                                alt="logo La Manu"></a>
+                    </div>
+                    <div class="col-3 my-3 logoTwitter">
+                        <a href="https://twitter.com/AmiensMetropole?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                            target="_blank"><img src="/public/assets/img/twitter.png" alt="logo Twitter"></a>
+                    </div>
+                    <div class="col-3 my-3 logoFacebook">
+                        <a href="https://www.facebook.com/LaManuFormation/" target="_blank"><img
+                                src="/public/assets/img/facebook.png" alt="logo Facebook"></a>
+                    </div>
                 </div>
-                <div class="col-12 logoLaManu">
-                    <a href=""><img src="/BourseHighTech2/public/assets/img/lamanupng.png" alt="logo La Manu"></a>
-                </div>
-                <div class="col-12 logoTwitter">
-                    <a href=""><img src="/BourseHighTech2/public/assets/img/twitter.png" alt="logo Twitter"></a>
-                </div>
-                <div class="col-12 logoFacebook">
-                    <a href=""><img src="/BourseHighTech2/public/assets/img/facebook.png" alt="logo Facebook"></a>
-                </div>
+
             </div>
         </div>
     </footer>
