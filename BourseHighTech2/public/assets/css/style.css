@@ -30,7 +30,7 @@ nav {
 /*  Mosaique  */
 .mosaique img {
     height: 180px;
-    width: auto;
+    width: 220px;
     padding: 10px;
     border-radius: 25px;
 }
