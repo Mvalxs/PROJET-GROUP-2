@@ -17,7 +17,7 @@ body {
 /* HEADER  */
 
 nav {
-    background-image: url(/BourseHighTech2/public/assets/img/header.png);
+    background-image: url(../img/header.png);
     background-size: cover;
 }
 
